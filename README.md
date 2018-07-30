@@ -1,6 +1,6 @@
 # S I G N    U P
 
-<img src="sign up.png"  height="600px"/>
+<img src="img README/sign up.png"  height="600px"/>
 
 ## Tabla de contenido
 - [¿Qué es Sign Up?](#¿que-es-sign-up?)
@@ -74,7 +74,7 @@ Por un lado tenemos Los "visitantes" y por otro los "visitados". Aquí es cuando
 
  ####  Guía de entrevista
 
- <img src="img README/Guia de entrevista.png"  height="720px"/> 
+ <img src="img README/Guia de entrevista.png"  height="600px"/> 
 
  #### Entrevistas
 
@@ -95,10 +95,10 @@ Por un lado tenemos Los "visitantes" y por otro los "visitados". Aquí es cuando
 
 ### Prototipo de alta fidelidad
 
- <img src="img README/paf1.png"  height="400px"/> 
- <img src="img README/paf2.png"  height="400px"/> 
- <img src="img README/paf3.png"  height="400px"/> 
- <img src="img README/paf4.png"  height="400px"/> 
- <img src="img README/paf5.png"  height="400px"/> 
+ <img src="img README/paf1.png"  height="300px"/> <img src="img README/paf2.png"  height="300px"/> 
+ 
+ <img src="img README/paf3.png"  height="300px"/>  <img src="img README/paf4.png"  height="300px"/> 
+
+ <img src="img README/paf5.png"  height="300px"/> 
 
 
