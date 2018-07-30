@@ -28,7 +28,7 @@ Más adelante te explicaremos el proceso de diseño y la investigación que hay 
 
 ### Entendimiento del problema
 
-<img src="vivencia.png"  height="400px"/>
+<img src="img README/vivencia.png"  height="400px"/>
 
 Normalmente vivimos la experiencia de ser visita en algún recinto, ya sea habitacional o de trabajo. Y concordamos con usted que es una situacion muy fastidiosa el tener que registrarse con un lapiz y un papel. Sin mencionar que toma su tiempo dar los datos requeridos por la persona a cargo, ocurre que en oportunidades hasta debes deletrear tu nombre, uff!! 
 Claro, también comprendemos que todo el trámite tiene sus motivos de seguridad, pero... ¿realmente son fidedignos esos libros de apuntes? y si el responsable detrás quisiera archivar esos datos digitalmente ¿traspasa dato por dato "manualmente" a un sistema computacional?
@@ -40,7 +40,7 @@ Por estas y más razones es que creamos SIGN UP. En la era digital en que vivimo
 En este proyecto la empresa de coworking donde opera Laboratoria en nuestra ciudad ha decidido reinventar su proceso de registro de visitantes. Con la entrada de WeWork al mercado latinoamericano, tienen mucha más competencia y necesitan invertir en tecnología para mejorar su servicio; el registro de visitantes es un primer acercamiento.
 El espacio IF BLANCO es nuestro público objetivo. Son una plataforma colaborativa, una comunidad de agentes de cambio. "...Trabajamos juntos, inspirándonos mutuamente a construir un mundo mejor paso a paso.." Es un espacio donde se alojan empresas y start-up, por ende la afluencia de personas es grande. Aqui un mapa donde puedes apreciar su dimension.
 
-<img src="IF BLANCO.png"  height="400px"/>
+<img src="img README/IF BLANCO.png"  height="400px"/>
 
 ##  RESEARCH CUALITATIVO
 
@@ -64,7 +64,7 @@ Por un lado tenemos Los "visitantes" y por otro los "visitados". Aquí es cuando
     - Tremenda
     - Ilegal
 
-   2. Visitas grupales programadass Realizadas por fundación Mustakis.
+   2. Visitas grupales programadas y realizadas por fundación Mustakis.
    Aquí nos encontramos con un público mayormente infantil que proviene de instituciones escolares a cargo de algunos guías y profesores. 
     [Web Fundación Mustakis](http://www.ifblanco.cl/fundacion-mustakis/)
 
@@ -74,7 +74,7 @@ Por un lado tenemos Los "visitantes" y por otro los "visitados". Aquí es cuando
 
  ####  Guía de entrevista
 
- <img src="Guia de entrevista.png"  height="720px"/> 
+ <img src="img README/Guia de entrevista.png"  height="720px"/> 
 
  #### Entrevistas
 
@@ -94,4 +94,11 @@ Por un lado tenemos Los "visitantes" y por otro los "visitados". Aquí es cuando
 ### Sketch
 
 ### Prototipo de alta fidelidad
+
+ <img src="img README/paf1.png"  height="400px"/> 
+ <img src="img README/paf2.png"  height="400px"/> 
+ <img src="img README/paf3.png"  height="400px"/> 
+ <img src="img README/paf4.png"  height="400px"/> 
+ <img src="img README/paf5.png"  height="400px"/> 
+
 
