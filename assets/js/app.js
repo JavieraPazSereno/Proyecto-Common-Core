@@ -70,7 +70,8 @@ function agregarUsuarioDb(tipoVisita){
     }
   });
 }
-*/
+
+
 function sendPhotoToStorage(){
     const photoFile = files[0];
     const fileName = photoFile.name; // nombre del archivo, sirve para armar la ruta
@@ -94,3 +95,4 @@ function sendPhotoToStorage(){
             `; 
         });    
 }
+*/
