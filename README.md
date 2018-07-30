@@ -6,10 +6,10 @@
 - [¿Qué es Sign Up?](#¿que-es-sign-up?)
 - [USER Research](#research)
   - [Entendimiento del problema](#entendimiento-del-problema)
-  - [Público objetivo](#publico-objetivo)
-- [Reseaarch Cualitativo](#research-cualitativo)
-  - [Investigación contextual](#investigacion-contextual)
-  - [Guía de entrevista](#guia-de-entrevista)
+  - [Público objetivo](#público-objetivo)
+- [Research Cualitativo](#research-cualitativo)
+  - [Investigación contextual](#investigación-contextual)
+  - [Guía de entrevista](#guía-de-entrevista)
   - [Entrevistas](#entrevistas)
   - [Test de usabilidad](#test-de-usabilidad)
 - [Visual Design](#visual-design)
@@ -74,7 +74,7 @@ Por un lado tenemos Los "visitantes" y por otro los "visitados". Aquí es cuando
 
  ####  Guía de entrevista
 
- <img src="Guia de entrevista.png"  height="1000px"/> 
+ <img src="Guia de entrevista.png"  height="720px"/> 
 
  #### Entrevistas
 
