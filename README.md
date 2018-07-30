@@ -24,7 +24,7 @@ Más adelante te explicaremos el proceso de diseño y la investigación que hay 
 
 ### - Entendimiento del problema
 
-<img src="experiencia.png"  height="400px"/>
+<img src="vivencia.png"  height="400px"/>
 
 Normalmente vivimos la experiencia de ser visita en algún recinto, ya sea habitacional o de trabajo. Y concordamos con usted que es una situacion muy fastidiosa el tener que registrarse con un lapiz y un papel. Sin mencionar que toma su tiempo dar los datos requeridos por la persona a cargo, ocurre que en oportunidades hasta debes deletrear tu nombre, uff!! 
 Claro, también comprendemos que todo el trámite tiene sus motivos de seguridad, pero... ¿realmente son fidedignos esos libros de apuntes? y si el responsable detrás quisiera archivar esos datos digitalmente ¿traspasa dato por dato "manualmente" a un sistema computacional?
