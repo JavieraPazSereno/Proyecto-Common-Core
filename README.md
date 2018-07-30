@@ -1,6 +1,6 @@
 # S I G N    U P
 
-![Sign up](sign up.png)
+<img src="sign up.png"  height="600px"/>
 
 ## Tabla de contenido
 - [¿Qué es Sign Up?](#¿QUE-ES-SIGN-UP?).
