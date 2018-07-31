@@ -79,13 +79,13 @@ Por un lado tenemos Los "visitantes" y por otro los "visitados". Aquí es cuando
  #### Entrevistas
 
    1. Etrevista a Directora de espacio IF Blanco (Pilar López)
-    - Escucha la entrevista grabada Aquí ()
+    - Escucha la entrevista grabada Aquí (https://drive.google.com/file/d/1zyBcEI3LtBueuthsn87izGgcp6qapysC/view?usp=sharing)
 
    2. Integrante activo del equipo de Laboratoria (Carla)
-    - Escucha la entrevista grabada Aquí ()
+    - Escucha la entrevista grabada Aquí (https://drive.google.com/file/d/1XKFUxByF4oIP-Vuu2CFIeIqYB7Xqikg7/view?usp=sharing)
 
    3. Conserje de recinto (Claudia)
-    - Escucha la entrevista grabada Aquí ()
+    - Escucha la entrevista grabada Aquí (https://drive.google.com/file/d/1u5IJSJ1rkEjJbY2JsWtjHcAzdUCSDt3U/view?usp=sharing)
     
  ### Test de usabilidad
 
