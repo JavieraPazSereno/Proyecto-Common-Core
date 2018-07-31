@@ -93,6 +93,8 @@ Por un lado tenemos Los "visitantes" y por otro los "visitados". Aquí es cuando
 
 ### Sketch
 
+<img src="img README/sketch.png"  height="400px"/>
+
 ### Prototipo de alta fidelidad
 
  <img src="img README/paf1.png"  height="300px"/> <img src="img README/paf2.png"  height="300px"/> 
