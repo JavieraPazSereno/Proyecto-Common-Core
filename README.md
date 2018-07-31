@@ -89,6 +89,24 @@ Por un lado tenemos Los "visitantes" y por otro los "visitados". Aquí es cuando
     
  ### Test de usabilidad
 
+Utilizamos Prototipos en papel
+
+ <img src="img README/test1.png"  height="300px"/><img src="img README/test2.png"  height="300px"/><img src="img README/test.png"  height="300px"/>
+
+ También la misma página web con despliegue en github.
+
+(https://javierapazsereno.github.io/Proyecto-Common-Core/)
+
+ Decidimos realizar el testeo a visitas reales que llegaban a If. Y también a la encargada de la entrada, ya que si por algún motivo la persona que entra no puede realizar el registro con el dispositivo móvil el conserje estuviera capacitado para dar ayuda.
+
+ mira aqui el video de test de usabilidad a conserje (Cludia)
+
+(https://drive.google.com/file/d/1NtXTg4sGbMca6U6blAp6qRb263iDvQMZ/view?usp=sharing)
+
+ Mira aquí el video de test de usabilidad a visita (nn)
+
+(https://drive.google.com/file/d/19JrAJiX_DBGLJPwh8DZPUQ1RhjLSnDsm/view?usp=sharing)
+
 #  VISUAL DESIGN
 
 ### Sketch
