@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,50 +12,61 @@
     <link rel="stylesheet" href="assets/css/style1.css">
     <title>Sign Up</title>
 </head>
+
 <body>
     <br>
     <header class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                       <a href="index5.html" ><i class="fas fa-cog"></i></a> 
-                </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <a href="index5.html"><i class="fas fa-cog"></i></a>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-sm-12 col-md-12 col-lg-12 logo">
-                    S<span><i class="fas fa-pen-alt"></i></span>GN   UP
-                </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-12 logo">
+                S<span><i class="fas fa-pen-alt"></i></span>GN UP
             </div>
-    </header> 
+        </div>
+    </header>
     <br>
     <br>
     <section class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <center><h3>¿Por qué estás en espacio IF BLANCO?</h3></center>
+                <center>
+                    <h3>¿Por qué estás en espacio IF BLANCO?</h3>
+                </center>
             </div>
         </div>
         <div class="row ">
             <div class="col-sm-12 col-md-12 col-lg-12">
-               <a href="index3.html"><center><button type="button" class="btn1 btn-warning">Visita a empresa/start up</button></center></a>
+                <a (click)="changeType(1)" href="index3.html">
+                    <center><button type="button" class="btn1 btn-warning">Visita a empresa/start up</button></center>
+                </a>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="index3.html"><center><button type="button" class="btn1 btn-warning">Visita grupal programada</button></center></a>
+                <a onClick="changeType(2)" href="index3.html">
+                    <center><button type="button" class="btn1 btn-warning">Visita grupal programada</button></center>
+                </a>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="index3.html"><center><button type="button" class="btn1 btn-warning">Conocer IF BLANCO</button></center></a>
-            </div>
-        </div>    
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="index4.html"><center><button type="button" class="btn1 btn-warning">Otro</button></center></a>
+                <a onClick="changeType(3)" href="index3.html">
+                    <center><button type="button" class="btn1 btn-warning">Conocer IF BLANCO</button></center>
+                </a>
             </div>
         </div>
-        
-    </section>   
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <a onClick="changeType(4)" href="index4.html">
+                    <center><button type="button" class="btn1 btn-warning">Otro</button></center>
+                </a>
+            </div>
+        </div>
+
+    </section>
     <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -62,4 +74,5 @@
     <script src="bootstrap-4.1.1/js/bootstrap.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
+
 </html>

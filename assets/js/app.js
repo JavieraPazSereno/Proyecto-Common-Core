@@ -7,34 +7,74 @@ var config = {
     storageBucket: "registro-de-visitas-a5fd3.appspot.com",
     messagingSenderId: "291692490928"
 };
-firebase.initializeApp(config);
+
+if (!firebase.apps.length) {
+    firebase.initializeApp(config);
+}
 const database = firebase.database();
 const storageService = firebase.storage();
 
-function agregarUsuarioDb(tipoVisita){ 
+
+function agregarUsuarioDb(tipoVisita) {
     let user = {
-        nombre:null,
-        apellido:null,
-        empresa:null,
-        tipo:tipoVisita,
-        image:null,
-        fechaRegistro: new Date().getTime()
+        nombre: null,
+        apellido: null,
+        empresa: null,
+        tipo: tipoVisita,
+        image: null,
+        fechaRegistro: new Date().getTime(),
+        typeOfvisit: null
     };
-     user.nombre = document.getElementById("first_name").value;
-     user.apellido = document.getElementById("last_name").value;
-     user.empresa = document.getElementById("nombre_empresa").value;
+    user.nombre = document.getElementById("first_name").value;
+    user.apellido = document.getElementById("last_name").value;
+    user.empresa = document.getElementById("nombre_empresa").value;
+    user.typeOfvisit = document.getElementById("opciones").value;
     /* console.log(document.getElementById('photoFileSelector').files.length)
      if(document.getElementById('photoFileSelector').files.length  > 0)
         user.image = sendPhotoToStorage(document.getElementById('photoFileSelector').files);
     */
-    console.log(user);
-    console.log(new Date(user.fechaRegistro)); 
-    let userConect;
-  userConect = database.ref('visitas');                                                                              
-  let conectados = userConect.push().set(user);
+    sendMail(user);
+
 
 }
 
+
+function typeOfvisit() {
+    return document.getElementById("opciones").value;
+
+
+}
+
+function sendMail(data) {
+
+    // emailjs.init("user_MvVtMdap1RSoNvjWMeEvH");
+
+    let service_id = 'gmail';
+    let template_id = 'N0001';
+    let template_params = {
+        name: ' ',
+        reply_email: 'john@doe.com',
+        message: 'la empresa' + data.empresa + ' requiere realizar una visita a ' + data.typeOfvisit
+    };
+
+    console.log(service_id, template_id, template_params)
+
+    emailjs.send(service_id, template_id, template_params)
+        .then(function(response) {
+            if (response.text === 'OK') {
+                alert('El correo se ha enviado de forma exitosa');
+                let userConect = database.ref('visitas');
+                let conectados = userConect.push().set(data);
+
+            }
+            console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+        }, function(err) {
+            alert('Ocurrió un problema al enviar el correo');
+            console.log("FAILED. error=", err);
+        });
+
+
+}
 /*async function sendPhotoToStorage(file){
     console.log('resolve', file[0]);
 
